@@ -12,6 +12,8 @@
 header{
     background-color: #0000007b;
     padding: 10px 20px;
+    position: fixed;
+    width: 100%;
 }
 
 header img{
@@ -32,7 +34,9 @@ header nav a{
 }
 
 header nav a:hover{
-    color: #ff3a3a;
+    color: #8d1d1d;
+    width: 150%;
+    transition: 0.4s;
 }
 
 .banner img{
@@ -51,6 +55,7 @@ main{
 #lista-destinos ul li{
     display: inline-block;
     margin: 18px;
+    transition: 0.5s;
     
 }
 
@@ -58,10 +63,15 @@ main{
     text-align: center;
     font-size:  20px;
     margin-top: 20px;
+    margin: 20px 0px;
 }
 footer{
     background-color: #282828;
     text-align: center;
     color: #a0a0a0a0;
     padding: 10px;
+}
+
+#lista-destinos ul li:hover{
+    box-shadow: 0px 0px 15px #a0a0a0a0;
 }
