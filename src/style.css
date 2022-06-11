@@ -39,3 +39,29 @@ header nav a:hover{
     width: 100%;
     object-fit: cover;
 }
+
+main{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+#lista-destinos ul{
+    list-style: none;
+}
+#lista-destinos ul li{
+    display: inline-block;
+    margin: 18px;
+    
+}
+
+#lista-destinos ul li h2{
+    text-align: center;
+    font-size:  20px;
+    margin-top: 20px;
+}
+footer{
+    background-color: #282828;
+    text-align: center;
+    color: #a0a0a0a0;
+    padding: 10px;
+}
